@@ -21,7 +21,8 @@ Used the pre-trained model of ResNet18 trained on images - since this is task fo
 Trained the SOTA model in [Singer Identity Representation Learning using Self-Supervised Techniques](https://hal.science/hal-04186048v1)
 
 1) Implemented the model using only contrastive loss (Completely self-supvervised)
-2) Implemented the model using contrastive loss + supervised loss
+2) Since model was overfitting, tried using kfold cross validation
+3) Implemented the model using contrastive loss + supervised loss
 
 #### Observations
 
