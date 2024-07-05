@@ -26,8 +26,11 @@ Trained the SOTA model in [Singer Identity Representation Learning using Self-Su
 
 #### Observations
 
-
+F1 score decreased in the model which used contrastive + supervised loss. The reason for the decrease may be that the feature space shaped by contrastive loss may not align well with the decision boundaries needed for classification.
 
 ## Label Propagation
 
+Performed label propagation on the model from [Label Propagation for Deep Semi-supervised Learning](https://openaccess.thecvf.com/content_CVPR_2019/papers/Iscen_Label_Propagation_for_Deep_Semi-Supervised_Learning_CVPR_2019_paper.pdf)
+
 ## Clustering
+
