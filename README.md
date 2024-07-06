@@ -12,9 +12,11 @@ Gold set(Test set) - rest of labeled files + a few files downloaded from YouTube
 
 ## A simple approach
 
-Trained a simple ResNet18 model to analyze the data.
+Trained a simple ResNet18 model to analyze the data. 
 
 Used the pre-trained model of ResNet18 trained on images - since this is task for Singer Classification, using a state of the art model for Singer Classification might lead to better results
+
+**For training, mel-spectrograms of audio files are used everywhere**
 
 ## SOTA model
 
@@ -24,7 +26,7 @@ Trained the SOTA model in [Singer Identity Representation Learning using Self-Su
 2) Since model was overfitting, tried using kfold cross validation
 3) Implemented the model using contrastive loss + supervised loss
 
-#### Observations
+#### Observation -
 
 F1 score decreased in the model which used contrastive + supervised loss. The reason for the decrease may be that the feature space shaped by contrastive loss may not align well with the decision boundaries needed for classification.
 
@@ -34,3 +36,4 @@ Performed label propagation on the model from [Label Propagation for Deep Semi-s
 
 ## Clustering
 
+Extracted embeddings of mel-spectrograms and performed kmeans clustering. Using the clustering loss, trained the model.
