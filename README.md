@@ -37,3 +37,7 @@ Performed label propagation on the model from [Label Propagation for Deep Semi-s
 ## Clustering
 
 Extracted embeddings of mel-spectrograms and performed kmeans clustering. Using the clustering loss, trained the model.
+
+## Conclusion
+
+The task of singer classification for the Indian raga is a very difficult task for ML models due to the complex structure of the raga, even using domain knowledge.
