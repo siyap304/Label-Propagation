@@ -25,6 +25,7 @@ Trained the SOTA model in [Singer Identity Representation Learning using Self-Su
 1) Implemented the model using only contrastive loss (Completely self-supvervised)
 2) Since model was overfitting, tried using kfold cross validation
 3) Implemented the model using contrastive loss + supervised loss
+4) Implemented the model using BYOL(Bootstrap Your Own Latent)
 
 #### Observation -
 
